@@ -17,7 +17,7 @@ public:
 
     int rowCount();//获取对话框输入的行数
     int columnCount();//获取对话框输入的列数
-    void    setRowColumn(int row, int column); //初始对话框上两个SpinBox的值
+    void setRowColumn(int row, int column); //初始对话框上两个SpinBox的值
 
 private slots:
 

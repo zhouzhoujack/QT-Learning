@@ -1,6 +1,6 @@
 #include "qwmainwindow.h"
 #include <QApplication>
-#include    <QTextCodec>
+#include  <QTextCodec>
 
 int main(int argc, char *argv[])
 {

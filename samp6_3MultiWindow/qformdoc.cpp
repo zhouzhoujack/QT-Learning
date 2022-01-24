@@ -90,7 +90,7 @@ void QFormDoc::on_actFont_triggered()
     QFont font;
     font = ui->plainTextEdit->font();
 
-    bool    ok;
+    bool ok;
     font = QFontDialog::getFont(&ok,font);
     ui->plainTextEdit->setFont(font);
 

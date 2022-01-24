@@ -3,12 +3,12 @@
 
 #include <QMainWindow>
 
-#include    <QStandardItemModel>
+#include <QStandardItemModel>
 
-#include    <QItemSelectionModel>
+#include <QItemSelectionModel>
 
-#include    "qwdialogheaders.h"
-#include    "qwdialogsize.h"
+#include "qwdialogheaders.h"
+#include "qwdialogsize.h"
 
 namespace Ui {
 class QFormTable;
