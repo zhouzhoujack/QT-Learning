@@ -1,7 +1,7 @@
 ﻿ #include "qwdialogheaders.h"
 #include "ui_qwdialogheaders.h"
 
-#include    <QMessageBox>
+#include  <QMessageBox>
 
 QWDialogHeaders::QWDialogHeaders(QWidget *parent) :
     QDialog(parent),

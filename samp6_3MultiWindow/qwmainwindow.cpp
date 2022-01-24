@@ -1,9 +1,9 @@
 ﻿#include "qwmainwindow.h"
 #include "ui_qwmainwindow.h"
 
-#include    <QPainter>
-#include    <QFileDialog>
-#include    "qwmisc.h"
+#include <QPainter>
+#include <QFileDialog>
+#include "qwmisc.h"
 
 void QWMainWindow::paintEvent(QPaintEvent *event)
 { //绘制窗口背景图片
@@ -114,6 +114,6 @@ void QWMainWindow::on_actWidget_triggered()
 void QWMainWindow::on_tabWidget_currentChanged(int index)
 {
     Q_UNUSED(index);
-    bool  en=ui->tabWidget->count()>0; //再无页面时，actions禁用
+    bool en=ui->tabWidget->count()>0; //再无页面时，actions禁用
     ui->tabWidget->setVisible(en);
 }

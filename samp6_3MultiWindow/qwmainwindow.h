@@ -3,8 +3,8 @@
 
 #include <QMainWindow>
 
-#include    "qformdoc.h"
-#include    "qformtable.h"
+#include "qformdoc.h"
+#include "qformtable.h"
 
 namespace Ui {
 class QWMainWindow;
@@ -14,10 +14,11 @@ class QWMainWindow : public QMainWindow
 {
     Q_OBJECT
 private:
-    void    paintEvent(QPaintEvent *event);
+    void paintEvent(QPaintEvent *event);
 
 public:
     explicit QWMainWindow(QWidget *parent = 0);
+
     ~QWMainWindow();
 
 private slots:

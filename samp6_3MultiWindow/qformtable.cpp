@@ -1,7 +1,7 @@
 ﻿#include "qformtable.h"
 #include "ui_qformtable.h"
 
-#include    <QMessageBox>
+#include  <QMessageBox>
 
 QFormTable::QFormTable(QWidget *parent) :
     QMainWindow(parent),
@@ -26,9 +26,9 @@ QFormTable::~QFormTable()
 
 void QFormTable::on_actSize_triggered()
 {
-    QWDialogSize    *dlgTableSize=new QWDialogSize(this); //创建对话框
+    QWDialogSize   *dlgTableSize=new QWDialogSize(this); //创建对话框
 
-    Qt::WindowFlags    flags=dlgTableSize->windowFlags();
+    Qt::WindowFlags  flags=dlgTableSize->windowFlags();
     dlgTableSize->setWindowFlags(flags | Qt::MSWindowsFixedSizeDialogHint); //设置对话框固定大小
 
     dlgTableSize->setRowColumn(theModel->rowCount(),theModel->columnCount()); //对话框数据初始化
