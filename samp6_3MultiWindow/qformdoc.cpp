@@ -1,14 +1,14 @@
 ﻿#include "qformdoc.h"
 #include "ui_qformdoc.h"
 
-#include    <QToolBar>
-#include    <QVBoxLayout>
-#include    <QFileDialog>
-#include    <QFile>
-#include    <QTextStream>
-#include    <QFontDialog>
-#include    <QFileInfo>
-#include    <QMessageBox>
+#include <QToolBar>
+#include <QVBoxLayout>
+#include <QFileDialog>
+#include <QFile>
+#include <QTextStream>
+#include <QFontDialog>
+#include <QFileInfo>
+#include <QMessageBox>
 
 #include    <qwmainwindow.h>
 
@@ -65,7 +65,7 @@ void QFormDoc::loadFromFile(QString &aFileName)
         aFile.close();//关闭文件
 
         mCurrentFile=aFileName;
-        QFileInfo   fileInfo(aFileName);
+        QFileInfo fileInfo(aFileName);
         QString shorName=fileInfo.fileName();
         this->setWindowTitle(shorName);
     }
@@ -87,11 +87,11 @@ void QFormDoc::on_actOpen_triggered()
 
 void QFormDoc::on_actFont_triggered()
 {
-    QFont   font;
-    font=ui->plainTextEdit->font();
+    QFont font;
+    font = ui->plainTextEdit->font();
 
     bool    ok;
-    font=QFontDialog::getFont(&ok,font);
+    font = QFontDialog::getFont(&ok,font);
     ui->plainTextEdit->setFont(font);
 
 }

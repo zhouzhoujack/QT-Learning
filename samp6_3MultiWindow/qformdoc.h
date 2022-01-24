@@ -18,7 +18,7 @@ public:
     explicit QFormDoc(QWidget *parent = 0);
     ~QFormDoc();
 
-    void    loadFromFile(QString& aFileName);
+    void loadFromFile(QString& aFileName);
 
 private slots:
     void on_actOpen_triggered();

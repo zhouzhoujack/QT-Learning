@@ -3,7 +3,7 @@
 
 #include <QDialog>
 
-#include    <QStringListModel>
+#include  <QStringListModel>
 
 namespace Ui {
 class QWDialogHeaders;
@@ -20,7 +20,7 @@ public:
     explicit QWDialogHeaders(QWidget *parent = 0);
     ~QWDialogHeaders();
 
-    void    setHeaderList(QStringList& headers);
+    void setHeaderList(QStringList& headers);
     QStringList headerList();
 private:
     Ui::QWDialogHeaders *ui;

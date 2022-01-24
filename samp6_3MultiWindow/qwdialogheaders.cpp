@@ -1,4 +1,4 @@
-﻿#include "qwdialogheaders.h"
+﻿ #include "qwdialogheaders.h"
 #include "ui_qwdialogheaders.h"
 
 #include    <QMessageBox>
